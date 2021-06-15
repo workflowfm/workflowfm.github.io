@@ -87,7 +87,7 @@ footer img {
 
 .cards {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 5vh;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     justify-items: center;
     align-items: center;
@@ -101,7 +101,7 @@ footer img {
 
 .cards .list {
     display: block;
-    height: 20vh;  
+    height: min(20vh, 10em);  
 }
 
 .cards .container {
